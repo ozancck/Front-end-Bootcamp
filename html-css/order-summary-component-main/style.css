@@ -49,9 +49,7 @@ body {
     margin-right: 12px;
 }
 
-.change-button {
-    margin-left: auto;
-}
+
 
 button {
     border: 0;
@@ -60,6 +58,11 @@ button {
     cursor: pointer;
 }
 
+.change-button {
+    margin-left: auto;
+    font-size: 13px;
+    margin-right: 16px;
+}
 .payment-button {
     margin-top: 16px;
     margin-bottom: 16px;
