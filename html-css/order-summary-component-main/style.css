@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-body{
+body {
+    font-family: 'Red Hat Display', sans-serif;
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,9 +13,70 @@ body{
     height: 100vh;
 }
 
-.main{
+.card {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 16px;
+    width: 400px;
+}
+
+.card-image img {
+    max-width: 100%;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: column; /* ne bu gardaş(dikeyde sıralam gibi) */
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.card-plan {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+.change-button {
+    margin-left: auto;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.payment-button {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    width:  100%;
+    box-shadow: 0 5px 10px 10px hsl(225, 100%, 98%);
 
 }
-.image{
 
-}
+.cancel-button {
+    color: hsl(224, 23%, 55%);
+  }
+  
+.big-title {
+    font-weight: 900;
+  }
+  
