@@ -1,2 +1,2 @@
-# Front-end-Bootcampie
+# Front-end-Bootcamp
  Mehmet Pekcan Front-End Bootcamp
